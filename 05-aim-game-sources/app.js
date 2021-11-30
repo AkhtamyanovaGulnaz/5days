@@ -81,8 +81,7 @@ function getRandomNumber(min, max) {
 }
 
 function getRandomColor() {
-    const index = Math.floor(Math.random() * colors.length)
-    return colors[index]
+    return colors[Math.floor(Math.random() * colors.length)]
 }
 
 function winTheGame() {
